@@ -121,7 +121,7 @@
                                     {{ Auth::user()->name }}
                                 </div>
                                 <span class="divider">|</span>
-                                @if(Auth::user()->email=="admin@apexpizza.in")
+                                @if(Auth::user()->email=="admin@apexpizza.com")
                                     <div>
                                         <a class="nav-link" href="/pendingorders">Pending Orders</a>
                                     </div>

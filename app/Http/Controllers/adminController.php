@@ -13,7 +13,7 @@ use App\Mail\OrderShipped;
 class adminController extends Controller
 {
     public function pendingorders(){
-        if(Auth::user()->email=="admin@apexpizza.in"){
+        if(Auth::user()->email=="admin@apexpizza.com"){
             $orders=order::select('id','user_id','total','status','created_at')->where('status','pending')->paginate(1);
             $data=[];
             foreach($orders as $order){
@@ -41,7 +41,7 @@ class adminController extends Controller
         else return redirect('/');
     }
     public function deliveredorders(){
-        if(Auth::user()->email=="admin@apexpizza.in"){
+        if(Auth::user()->email=="admin@apexpizza.com"){
             $orders=order::select('id','user_id','total','status','created_at')->where('status','delivered')->orderBy('id','DESC')->paginate(1);
             $data=[];
             foreach($orders as $order){
@@ -69,7 +69,7 @@ class adminController extends Controller
         else return redirect('/');
     }
     public function cancelledorders(){
-        if(Auth::user()->email=="admin@apexpizza.in"){
+        if(Auth::user()->email=="admin@apexpizza.com"){
             $orders=order::select('id','user_id','total','status','created_at')->where('status','cancelled')->orderBy('id','DESC')->paginate(1);
             $data=[];
             foreach($orders as $order){
@@ -97,7 +97,7 @@ class adminController extends Controller
         else return redirect('/');
     }
     public function dispatchorder($id){
-        if(Auth::user()->email=="admin@apexpizza.in"){
+        if(Auth::user()->email=="admin@apexpizza.com"){
             $order = order::find($id);
             if($order->status=="pending")
                 $order->status="delivered";

@@ -31,8 +31,7 @@ Route::group(['middleware' => ['auth','verified']], function () {
     Route::get('/pendingorders','adminController@pendingorders');
     Route::get('/cancelledorders','adminController@cancelledorders');
     Route::get('/deliveredorders','adminController@deliveredorders');
-    Route::post('/dispatchorder/{id}','adminController@dispatchorder');
-    
+    Route::post('/dispatchorder/{id}','adminController@dispatchorder'); 
 });
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('profile', function () {
