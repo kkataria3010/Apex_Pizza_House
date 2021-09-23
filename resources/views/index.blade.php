@@ -45,19 +45,19 @@
                         <h1 class="section-heading">Our services</h1>
                         <div class="card-wrapper flex">
                             <div class="service-card magic-shadow-sm">
-                                <img class="icon" src="{{ asset('/images/untitled-3.png') }}" style="width:10rem; height:8.5rem; top:-4.2rem;" alt="">
+                                <img class="icon" src="{{ asset('resources/images/untitled-3.png') }}" style="width:10rem; height:8.5rem; top:-4.2rem;" alt="">
                                 <h2>Free Home delivery</h2>
                                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                                 <a href="/menu"><button class="btn btn-secondary">Order Now</button></a>
                             </div>
                             <div class="service-card magic-shadow-sm">
-                                <img class="icon" src="{{ asset('/images/untitled.png') }}" alt="" style="width:9rem; height:7.5rem; top:-3.8rem;">
+                                <img class="icon" src="{{ asset('resources/images/untitled.png') }}" alt="" style="width:9rem; height:7.5rem; top:-3.8rem;">
                                 <h2 class="text-primary">Ambient Restaurant</h2>
                                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                                 <a href="/#contact"><button class="btn btn-primary">Visit Now</button></a>
                             </div>
                             <div class="service-card magic-shadow-sm">
-                                <img class="icon" src="{{ asset('/images/untitled-2.png') }}" alt="" style="width:6.3rem; height:5.9rem; top:-3rem;">
+                                <img class="icon" src="{{ asset('resources/images/untitled-2.png') }}" alt="" style="width:6.3rem; height:5.9rem; top:-3rem;">
                                 <h2>Party Orders</h2>
                                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                                 <a href="/#contact"><button class="btn btn-secondary">Contact Us</button></a>
@@ -115,21 +115,21 @@
                         <div class="contact-info">
                             <div>
                                 <div>
-                                    <img src="{{ asset('/icons/phone-2.svg') }}" alt="">
+                                    <img src="{{ asset('resources/icons/phone-2.svg') }}" alt="">
                                     <div>
                                         <span>Call us:</span>
                                         <span>(+91) 123 456 7891</span>
                                     </div>
                                 </div>
                                 <div>
-                                    <img src="{{ asset('/icons/bag-2.svg') }}" alt="">
+                                    <img src="{{ asset('resources/icons/bag-2.svg') }}" alt="">
                                     <div>
                                         <span>E-mail ::</span>
                                         <span>suppor@apexpizza.com</span>
                                     </div>
                                 </div>
                                 <div>
-                                    <img src="{{ asset('/icons/clock-2.svg') }}" alt="">
+                                    <img src="{{ asset('resources/icons/clock-2.svg') }}" alt="">
                                     <div>
                                         <span>Opening Hours:</span>
                                         <span>Mon - Sun (10.00am - 12.00am)</span>

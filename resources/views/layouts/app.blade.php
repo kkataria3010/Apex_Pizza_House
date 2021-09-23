@@ -93,22 +93,22 @@
                 <header class="topbar">
                     <div class="container flex justify-between items-center">
                         <div class="icons">
-                            <a href="#"><img src="{{ asset('/icons/facebook.svg') }}" alt=""></a>
-                            <a href="#"><img src="{{ asset('/icons/twitter.svg') }}" alt=""></a>
-                            <a href="#"><img src="{{ asset('/icons/google.svg') }}" alt=""></a>
-                            <a href="#"><img src="{{ asset('/icons/instagram.svg') }}" alt=""></a>
+                            <a href="#"><img src="{{ asset('resources/icons/facebook.svg') }}" alt=""></a>
+                            <a href="#"><img src="{{ asset('resources/icons/twitter.svg') }}" alt=""></a>
+                            <a href="#"><img src="{{ asset('resources/icons/google.svg') }}" alt=""></a>
+                            <a href="#"><img src="{{ asset('resources/icons/instagram.svg') }}" alt=""></a>
                         </div>
                         <div class="auth flex items-center">
                             <!-- Authentication Links -->
                             @guest
                                 <div>
-                                  <img src="{{ asset('/icons/user-icon.svg') }}" alt="">
+                                  <img src="{{ asset('resources/icons/user-icon.svg') }}" alt="">
                                     <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
                                 </div>
                                 <span class="divider">|</span>
                                 @if (Route::has('register'))
                                     <div>
-                                        <img src="{{ asset('/icons/edit.svg') }}" alt="">
+                                        <img src="{{ asset('resources/icons/edit.svg') }}" alt="">
                                         <a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>
                                     </div>
                                     
@@ -116,7 +116,7 @@
                             
                             @else
                                 <div>
-                                    <img src="{{ asset('/icons/user-icon.svg') }}" alt="">
+                                    <img src="{{ asset('resources/icons/user-icon.svg') }}" alt="">
                                     {{ Auth::user()->name }}
                                 </div>
                                 <span class="divider">|</span>
@@ -143,7 +143,7 @@
                                     </div> 
                                     <span class="divider">|</span>      
                                     <div>
-                                        <img src="{{ asset('/icons/cart.svg') }}" alt="">
+                                        <img src="{{ asset('resources/icons/cart.svg') }}" alt="">
                                     <a href="/cart"><span id="cart-items-count">{{$total ?? ''}}</span> Items - (Rs.<span id="cart-items-price">{{$price ?? ''}}</span>)</a>
                                     </div>
                                     <span class="divider">|</span>
@@ -166,17 +166,17 @@
                     <div class="top">
                         <div class="container flex justify-between">
                             <div class="contact flex items-center">
-                                <img src="{{ asset('/icons/phone.svg') }}" alt="">
+                                <img src="{{ asset('resources/icons/phone.svg') }}" alt="">
                                 <div>
                                     <h5>Call US: (+91) 123 456 7891</h5>
                                     <h6>E-mail : support@apexpizza.com</h6>
                                 </div>
                             </div>
                             <div class="branding flex justify-center items-center">
-                                <img src="{{ asset('/images/apex-logo.png') }}" alt="" style="width:50%">
+                                <img src="{{ asset('resources/images/apex-logo.png') }}" alt="" style="width:50%">
                             </div>
                             <div class="time flex items-center">
-                                <img src="{{ asset('/icons/clock.svg') }}" alt="">
+                                <img src="{{ asset('resources/icons/clock.svg') }}" alt="">
                                 <div>
                                     <h5>Opening Hours:</h5>
                                     <h6>Mon - Sun (10.00am - 12.00am)</h6>
@@ -236,25 +236,25 @@
                 <ul>
                     <li>
                         <a href="https://www.facebook.com/">
-                            <img src="{{ asset('/icons/facebook.svg') }}" alt="">
+                            <img src="{{ asset('resources/icons/facebook.svg') }}" alt="">
                             <span>Facebook</span>
                         </a>
                     </li>
                     <li>
                         <a href="https://www.twitter.com/">
-                            <img src="{{ asset('/icons/twitter.svg') }}" alt="">
+                            <img src="{{ asset('resources/icons/twitter.svg') }}" alt="">
                             <span>Twitter</span>
                         </a>
                     </li>
                     <li>
                         <a href="https://www.googleplus.com/">
-                            <img src="{{ asset('/icons/google.svg') }}" alt="">
+                            <img src="{{ asset('resources/icons/google.svg') }}" alt="">
                             <span>Google +</span>
                         </a>
                     </li>
                     <li>
                         <a href="https://www.instagram.com/">
-                            <img src="{{ asset('/icons/instagram.svg') }}" alt="">
+                            <img src="{{ asset('resources/icons/instagram.svg') }}" alt="">
                             <span>Instagram</span>
                         </a>
                     </li>
@@ -265,22 +265,22 @@
             <h3>Instagram</h3>
             <div class="post-wrap">
                 <div>
-                    <img src="{{ asset('/images/food-table.jpg') }}" alt="">
+                    <img src="{{ asset('resources/images/food-table.jpg') }}" alt="">
                 </div>
                 <div>
-                    <img src="{{ asset('/images/food-table.jpg') }}" alt="">
+                    <img src="{{ asset('resources/images/food-table.jpg') }}" alt="">
                 </div>
                 <div>
-                    <img src="{{ asset('/images/food-table.jpg') }}" alt="">
+                    <img src="{{ asset('resources/images/food-table.jpg') }}" alt="">
                 </div>
                 <div>
-                    <img src="{{ asset('/images/food-table.jpg') }}" alt="">
+                    <img src="{{ asset('resources/images/food-table.jpg') }}" alt="">
                 </div>
                 <div>
-                    <img src="{{ asset('/images/food-table.jpg') }}" alt="">
+                    <img src="{{ asset('resources/images/food-table.jpg') }}" alt="">
                 </div>
                 <div>
-                    <img src="{{ asset('/images/food-table.jpg') }}" alt="">
+                    <img src="{{ asset('resources/images/food-table.jpg') }}" alt="">
                 </div>
             </div>
         </div>

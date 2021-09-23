@@ -18,7 +18,7 @@
       @for ($j = 0; $j < count($data[$i]); $j++)
           <div class="food-card magic-shadow-sm">
             <div class="product-image flex items-center justify-center">
-              <img src="{{ asset("/menu/".$categories[$i]."/".$data[$i][$j]['image']) }}"style="object-fit:contain;" alt="">
+              <img src="{{ asset("resources/menu/".$categories[$i]."/".$data[$i][$j]['image']) }}"style="object-fit:contain;" alt="">
             </div>
             <hr>
             <div>
@@ -28,7 +28,7 @@
               </div>
               <div class="flex justify-center">
                 <button id>
-                  <img src="{{ asset('/icons/cart-2.svg') }}" alt="">
+                  <img src="{{ asset('resources/icons/cart-2.svg') }}" alt="">
                 <span id="{{$data[$i][$j]['name']}}"class="cart-span">
                   @if(Auth::user()!="" && count($items)>0 && in_array($data[$i][$j]['name'],$items))
                     Added
