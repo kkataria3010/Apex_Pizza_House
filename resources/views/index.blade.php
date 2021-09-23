@@ -5,7 +5,7 @@
                     <div class="container">
                         <div class="welcome flex items-center">
                             <span>Welcome to</span>
-                            <img src="{{ asset('/images/apex-logo.png') }}" alt="" width="300rem">
+                            <img src="{{ asset('resources/images/apex-logo.png') }}" alt="" width="300rem">
                         </div>
                         <h1>Ahmedabad's Best <span>Pizza</span> House</h1>
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
@@ -16,7 +16,7 @@
                             <a href="/#contact"><button class="btn btn-secondary"> Contact Us</button></a>
                         </div>
                         <div class="hero-image">
-                            <img src="{{ asset('/images/source.gif') }}" alt="">
+                            <img src="{{ asset('resources/images/source.gif') }}" alt="">
                         </div>
                     </div>
                 </header>
@@ -25,7 +25,7 @@
                         <h1 class="section-heading">About Apex Pizza House</h1>
                         <div class="about-meal-wrap flex">
                             <div class="flex-1">
-                                <img src="{{ asset('/images/italian.png') }}" alt="">
+                                <img src="{{ asset('resources/images/italian.png') }}" alt="">
                             </div>
                             <div class="flex-1">
                                 <h2>Apex Pizza House is one of finest Ahmedabad's Italian Restaurant</h2>

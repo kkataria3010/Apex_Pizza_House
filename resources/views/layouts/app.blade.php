@@ -19,7 +19,7 @@
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
     
     <!-- Styles -->
-    {{-- <link href="{{ asset('css/app.css') }}" rel="stylesheet"> --}}
+    {{-- <link href="{{ asset('css/style2.css') }}" rel="stylesheet"> --}}
     <link href="{{ asset('/css/style.css') }}" rel="stylesheet">
     
 </head>
@@ -27,12 +27,12 @@
     <div id="home" class="main-wrapper">
         <div class="nav-background">
             <div class="mobile-logo">
-                <img src="{{ asset('/images/apex-logo.png') }}" style="width:100%">
+                <img src="{{ asset('resources/images/apex-logo.png') }}" style="width:100%">
             </div>
             <div class="mobile-nav">
                 <div class="cart">
                     <div class="flex items-center">
-                        <img src="{{ asset('/icons/cart-dark.svg') }}" alt="">
+                        <img src="{{ asset('resources/icons/cart-dark.svg') }}" alt="">
                         <a href="/cart">0 Items - (Rs 0)</a>
                     </div>
                 </div>
@@ -64,15 +64,16 @@
                         </li>
                     </ul>
                 </div>
+                <div class="error">ERROR</div>
                 <div class="contact flex items-center">
-                    <img src="{{ asset('/icons/phone.svg') }}" alt="">
+                    <img src="{{ asset('resources/icons/phone.svg') }}" alt="">
                     <div>
                         <h5>Call us: (+84) 123 456 789</h5>
                         <h6>E-mail : support@freshmeal.com</h6>
                     </div>
                 </div>
                 <div class="time flex items-center">
-                    <img src="{{ asset('/icons/clock.svg') }}" alt="">
+                    <img src="{{ asset('resources/icons/clock.svg') }}" alt="">
                     <div>
                         <h5>Opening Hours:</h5>
                         <h6>Mon - Sat (8.00am - 12.00am)</h6>

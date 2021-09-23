@@ -27,7 +27,7 @@
                 {{$data[$i][$j]['price']}}
               </div>
               <div class="flex justify-center">
-                <button id>
+                <button>
                   <img src="{{ asset('resources/icons/cart-2.svg') }}" alt="">
                 <span id="{{$data[$i][$j]['name']}}"class="cart-span">
                   @if(Auth::user()!="" && count($items)>0 && in_array($data[$i][$j]['name'],$items))
